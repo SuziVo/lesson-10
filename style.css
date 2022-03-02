@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    /* background-color: beige; */
+}
+.box{
+    margin-left: 180px;
+}
+.title{
+    width: 177px;
+    height: 43px;
+    size: 30px;
+    padding-top: 120px;
+}
+.p1{
+    width: 642px;
+    height: 96px;
+    size: 32,7px;
+    padding-top: 60px;
+}
+.p2{
+    width: 831.5px;
+    height: 126px;
+    size: 25px;
+    padding-top: 60px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.box2{
+    width: 502px;
+    height: 181px;
+   background-color: brown;
+}
