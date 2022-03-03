@@ -4,9 +4,10 @@
     padding: 0;
 }
 .container{
-    max-width: 1180px;
+    max-width: 1170px;
     width: 100%;
-    /* background-color: beige; */
+    background-color: beige;
+    margin: 0 auto;
 }
 .box{
     margin-left: 180px;
@@ -29,13 +30,71 @@
     size: 25px;
     padding-top: 60px;
 }
+.item1{
+    height: 30px;
+    width: 61px;
+    background-color: blue;
+}
 .flex{
     display: flex;
-    flex-wrap: wrap;
-   
+    justify-content: space-between;
 }
-.box2{
+.block{
+    display: flex;
+    flex-wrap: wrap;
     width: 502px;
     height: 181px;
-   background-color: brown;
+    margin-left: 180px;
+}
+.block2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 502px;
+    height: 181px;
+    margin-left: 180px;
+}
+.item2{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.item3{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.item4{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.item5{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.item6{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.item7{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.item8{
+    height: 30px; 
+    background-color: blue;
+    margin-left: 10px;
+}
+.item9{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.item10{
+    height: 30px;
+    background-color: blue;
+    margin-left: 10px;
 }
